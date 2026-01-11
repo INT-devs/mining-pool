@@ -488,7 +488,7 @@ curl https://international-coin.org/api/faucet/stats
 
 # Test faucet request (with valid testnet address)
 curl -X POST https://international-coin.org/api/faucet/request \
-  -d "address=tint1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+  -d "address=intc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh"
 # Should return success or rate limit error
 ```
 
@@ -496,7 +496,7 @@ curl -X POST https://international-coin.org/api/faucet/request \
 
 For issues or questions:
 - GitHub Issues: https://github.com/INT-devs/intcoin/issues
-- Discord: https://discord.gg/jCy3eNgx
+- Discord: https://discord.gg/Y7dX4Ps2Ha
 - Email: admin@international-coin.org
 
 ---
